@@ -13,6 +13,7 @@ int main(){
     int i=0, min=0, may=0, num=0, car=0, longi=0;
     printf("Ingrese una contrasena: ");
     scanf("%s", contrasena);
+    
     //Contar caracteres de la contraseña.
     while(contrasena[i]!='\0'){
         i++;
