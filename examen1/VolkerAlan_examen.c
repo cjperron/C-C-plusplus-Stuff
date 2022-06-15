@@ -390,8 +390,7 @@ void flushear_stdin(void){
         c=getchar();
     } while(c!='\n' && c!= EOF);
 }
-short verificarCadena(char cadena[], short tipo)
-{
+short verificarCadena(char cadena[], short tipo){
     if(strlen(cadena)==0){
         printf("Invalido\n");
         return 0;
